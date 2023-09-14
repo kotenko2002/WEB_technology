@@ -1,0 +1,16 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50%;
+}
+
+#messages {
+  height: 200px;
+  overflow-y: scroll;
+}
