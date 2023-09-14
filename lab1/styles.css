@@ -1,0 +1,68 @@
+/* general */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+[centered-text] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[photo] {
+  background-image: url(https://a-static.besthdwallpaper.com/big-bang-of-colors-wallpaper-1440x1080-36502_22.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.right {
+  width: 25%;
+  height: 100%;
+
+  background-color: #ade5f6;
+}
+
+header {
+  height: 30%;
+  background-color: royalblue;
+}
+
+footer {
+  height: 15%;
+  background-color: #fbf3b4;
+}
+
+/* flex */
+main.flex {
+  height: 55%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.left-flex {
+  width: 75%;
+  background-color: #bad4ed;
+}
+
+/* float */
+main.float {
+  height: 55%;
+}
+
+.left-float {
+  width: 75%;
+  height: 100%;
+
+  float: left;
+  background-color: #bad4ed;
+}
